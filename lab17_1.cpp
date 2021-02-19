@@ -63,7 +63,7 @@ void searchName(vector<string> &names,vector<int> &scores,vector<char> &grades,s
 }
 
 void searchGrade(vector<string> &names,vector<int> &scores,vector<char> &grades,string key){
-    int N = grades.size();
+    int N =  grades.size();
     int status = 0;
     char ikey[100];
     strcpy(ikey,key.c_str());
